@@ -1,0 +1,14 @@
+body {
+    background-color: #343434;
+    color: #F5FFFA;
+}
+#home-content p {
+    text-align: justify;
+    hyphens: auto;
+}
+#home-content h1 {
+    text-align: center;
+}
+#home-content h2 {
+    text-align: center;
+}

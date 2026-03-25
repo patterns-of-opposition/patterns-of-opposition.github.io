@@ -1,0 +1,21 @@
+{% extends 'main/home-base.html' %}
+{% load static %}
+{% block content %}
+<!--     <div class="container"> -->
+<!--         <div class="text-center mt-5"> -->
+<!--    <div id="home-div">
+        <div id="header-text-container">-->
+<!--            <div id="header-text">
+                <p>Patterns of Opposition in an Era of Democratic Decline: </p>
+                <p>A Longitudinal Study of Oppositional Behaviour in Twelve Legislatures</p>
+            </div>-->
+<!--         </div> -->
+        {% include 'main/navbar.html' %}
+        <div class="container">
+            {% block home %}{% endblock %}
+        </div>
+        <!--        <div id="cassava">
+            <img src="{% static 'main/img/cassava.png' %}"/>
+        </div>-->
+<!--     </div> -->
+{% endblock %}
